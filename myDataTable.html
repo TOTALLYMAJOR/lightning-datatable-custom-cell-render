@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Custom Data Table">
+        <lightning-datatable
+            key-field="Id"
+            data={data}
+            columns={columns}
+            hide-checkbox-column
+            onsave={handleSave}
+        >
+        </lightning-datatable>
+    </lightning-card>
+</template>
