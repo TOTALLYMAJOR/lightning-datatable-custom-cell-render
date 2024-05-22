@@ -1,0 +1,8 @@
+<template>
+    <template if:true={isEditable}>
+        <lightning-input value={value}></lightning-input>
+    </template>
+    <template if:false={isEditable}>
+        {value}
+    </template>
+</template>
