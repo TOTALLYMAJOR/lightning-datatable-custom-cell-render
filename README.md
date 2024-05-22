@@ -26,8 +26,6 @@ force-app
 │ MyApexController.cls
 │ MyApexController.cls-meta.xml
 
-markdown
-Copy code
 
 ## Components
 
